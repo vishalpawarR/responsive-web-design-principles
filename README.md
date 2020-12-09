@@ -66,13 +66,17 @@ img {
 
 The four different viewport units are:
 
-    * vw (viewport width): 10vw would be 10% of the viewport's width.
-    * vh (viewport height): 3vh would be 3% of the viewport's height.
-    * vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
-    * vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
+    * `vw` (viewport width): `10vw` would be 10% of the viewport's width.
+    * `vh` (viewport height): `3vh` would be 3% of the viewport's height.
+    * `vmin` (viewport minimum): `70vmin` would be 70% of the viewport's smaller dimension (height or width).
+    * `vmax` (viewport maximum): `100vmax` would be 100% of the viewport's bigger dimension (height or width).
 
 Here is an example that sets a body tag to 30% of the viewport's width.
 
-body { width: 30vw; }
+```css
+body {
+  width: 30vw;
+}
+```
 
-Set the width of the h2 tag to 80% of the viewport's width and the width of the paragraph as 75% of the viewport's smaller dimension.
+Set the `width` of the `h2` tag to 80% of the viewport's `width` and the width of the paragraph as 75% of the viewport's smaller dimension.
